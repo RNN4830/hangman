@@ -1,6 +1,6 @@
 def hangman_game():
     name = input('What is your name?')
-    print ("Hey there," + name, "time to play some hangman!")
+    print ("Hi there," + name, "time to play some hangman!")
     print ("Please guess a letter!")
     turns = 10
     guesses = "" # variable with empty value
