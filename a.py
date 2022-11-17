@@ -4,7 +4,7 @@ def hangman_game():
     print ("Please guess a letter!")
     turns = 10
     guesses = "" # variable with empty value
-    word = "duplicate"
+    word = "agile"
     while turns > 0:
         failed = 0
         for char in word:
