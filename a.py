@@ -1,5 +1,5 @@
 def hangman_game():
-    name = input('What is your name?')
+    name = input('What's your name?')
     print ("Hi there," + name, "time to play some hangman!")
     print ("Please guess a letter!")
     turns = 10
